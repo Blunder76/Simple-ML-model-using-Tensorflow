@@ -42,5 +42,4 @@ y_pred = [1 if val >= 0.5 else 0 for val in y_pred_proba]
 accuracy = accuracy_score(y_test, y_pred)
 print('Accuracy', accuracy)
 
-model.save
 
